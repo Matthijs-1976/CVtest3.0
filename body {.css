@@ -17,7 +17,6 @@ body {
 }
 
 header {
-  text-align: center;
   margin-bottom: 20px;
 }
 
@@ -53,4 +52,17 @@ ul {
 ul li {
   margin-bottom: 15px;
 }
+
+.header-container {
+  display: flex;                  /* tekst en foto naast elkaar */
+  justify-content: space-between; /* links tekst, rechts foto */
+  align-items: center;            /* netjes verticaal uitlijnen */
+}
+
+.profile-pic {
+  width: 120px;      /* pas grootte aan naar wens */
+  height: auto;
+  border-radius: 50%; /* optioneel: maakt de foto rond */
+}
+
 
